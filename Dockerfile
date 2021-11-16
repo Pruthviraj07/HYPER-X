@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/HYPERX
-RUN git clone -b Sammy https://github.com/HYPER-OP/HYPER-X /root/HYPERX
+RUN git clone -b HYPER https://github.com/HYPER-OP/HYPER-X /root/HYPERX
 WORKDIR /root/HYPERX
 
 #Copy config file to /root/HYPERX/HYPERX
